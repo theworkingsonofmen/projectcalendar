@@ -1,0 +1,56 @@
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+table {
+  margin: 0 auto;
+  border-spacing: 0;
+}
+
+th{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  background-color: lightgray;
+  font-size: 24px;
+  text-transform: uppercase;
+  font: Helvetica;
+
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+  height: 90px;
+  width: 90px;
+  font-size: 12px;
+  text-align: right;
+  vertical-align: top;
+  padding: 5px;
+}
+
+#navigation {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+}
+
+#prev-month {
+	font-size: 16px;
+	background-color: #ccc;
+	border: none;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#next-month {
+	font-size: 16px;
+	background-color: #ccc;
+	border: none;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
